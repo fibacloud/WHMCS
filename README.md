@@ -3,16 +3,17 @@ FibaCloud.com WHMCS Reseller Modules
 
 ## Installation
 - Download latest module [release](https://github.com/fibacloud/WiseCP/raw/main/FibaCloud_WiseCP_V1.zip);
-- Upload archive folder contents to your WiseCP installation root directory;
-- Login to WseCP admin panel;
-- Go to Products / Services > Hosting/Server > Shared Server Settings > Add New Shared Server
-- Hostname: **Label**
-- Server Automation Type: **FibaCloud**
-- IP Adresi: **cloud.fibacloud.com**
+- Upload archive folder contents to your WHMCS installation root directory;
+- Login to WHMCS admin panel;
+- Go to System Settings > Products & Services > Servers > Add New Server
+- Module: **FibaCloud**
+- Hostname or IP Address: **cloud.fibacloud.com**
 - Username: **Cloud Account Email**
 - Password: **Cloud Account Password**
-- Upgrade/Downgrade Settings: **Not Delete**
-- Click on the **Add New Shared Server button**
+- Click on the **Continue**
+- Name: **Label**
+- Hostname or IP Address: **cloud.fibacloud.com**
+- Click on the **Save Changes**
 
 ## OS Requirement Configuration
 - Go to Products/Services > Product/Service Management > Product/Service Requirements > Create New Requirement
