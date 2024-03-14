@@ -2,7 +2,7 @@
 FibaCloud.com WHMCS Reseller Modules
 
 ## Installation
-- Download latest module [release](https://github.com/fibacloud/WiseCP/raw/main/FibaCloud_WiseCP_V1.zip);
+- Download latest module [release](https://github.com/fibacloud/WHMCS/raw/main/FibaCloud_WHMCS_V1.zip);
 - Upload archive folder contents to your WHMCS installation root directory;
 - Login to WHMCS admin panel;
 - Go to System Settings > Products & Services > Servers > Add New Server
