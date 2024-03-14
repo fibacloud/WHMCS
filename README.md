@@ -15,41 +15,44 @@ FibaCloud.com WHMCS Reseller Modules
 - Hostname or IP Address: **cloud.fibacloud.com**
 - Click on the **Save Changes**
 
-## OS Requirement Configuration
-- Go to Products/Services > Product/Service Management > Product/Service Requirements > Create New Requirement
-- Requirement Name: **OS**
-- Requirement Group: **Servers**
-- Related Product Group: **Server**
-- Difficulty: **enabled**
-- Configurable Options: **FibaCloud Operating System**
-- Option Type: **Dropdown Menu (Selectbox)**
-- Options:
-   - CentOS 7 - CentOS 7
-   - CentOS 8 Stream - CentOS 8 Stream
-   - CentOS 9 Stream - CentOS 9 Stream
-   - AlmaLinux 8 - AlmaLinux 8
-   - AlmaLinux 9 - AlmaLinux 9
-   - Debian 10 - Debian 10
-   - Debian 11 - Debian 11
-   - Debian 12 - Debian 12
-   - Debian 13 - Debian 13
-   - Ubuntu 18.04 - Ubuntu 18.04
-   - Ubuntu 20.04 - Ubuntu 20.04
-   - Ubuntu 22.04 - Ubuntu 22.04
-   - Ubuntu 23.04 - Ubuntu 23.04
-   - Ubuntu 23.10 - Ubuntu 23.10
-   - Rocky Linux 8 - Rocky Linux 8
-   - Rocky Linux 9 - Rocky Linux 9
+## Packade Configuration
+ - Go to General Settings > Products & Services > Products/Services > Create A New Product
+ - Product Type: **Server/VPS**
+ - Product Name: **Name**
+ - Module: **FibaCloud**
+ - Click on the **Continue**
+    - Edit Product
+       - go to **Module Settings**
+       - Module Name: **FibaCloud**
+       - Product ID: **FibaCloud Server Package That Will Match the Package You Edited**
+       - Promo Code: **If you have a promotional code, you can pass the code via API.**
+       - Automatic Installation (optional): **Automatically setup the product as soon as the first payment is received**
+       - Click on the **Save Changes**
 
- ## Packade Configuration
- - Go to Products/Services > Hosting/Server > Server Packages
- - Edit or Create a Package
-    - Go To **Automation Settings**
-       - Master Server: **FibaCloud**
-       - Select Product: FibaCloud Server Package That Will Match the Package You Edited
-       - Promo Code: If you have a promotional code, you can pass the code via API.
-       - Automatic Installation: **Enabled**
-       - Save Settings
-    - Go To **Requirements**
-       - Enable **OS**
-       - Save Settings
+## OS Configuration
+- Go to General Settings > Products & Services > Configurable Option Groups > Create A New Group
+- Group Name: **Operating System**
+- Assigned Products: **Select All**
+  - Configurable Options
+     - Add New Configurable Option
+     - Option Name (İmportand!): **OS**
+     - Option Type: **Dropdown**
+       - Add Option:
+         - CentOS 7
+         - CentOS 8 Stream
+         - CentOS 9 Stream
+         - AlmaLinux 8
+         - AlmaLinux 9
+         - Debian 10
+         - Debian 11
+         - Debian 12
+         - Debian 13
+         - Ubuntu 18.04
+         - Ubuntu 20.04
+         - Ubuntu 22.04
+         - Ubuntu 23.04
+         - Ubuntu 23.10
+         - Rocky Linux 8
+         - Rocky Linux 9
+         - Click on the **Save Changes**
+      - Click on the **Save Changes**
